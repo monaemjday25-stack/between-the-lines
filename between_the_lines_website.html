@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="بين سطرين — خدمات الترجمة بين العربية والإنجليزية، التدقيق اللغوي، وتحسين النصوص المهنية.">
+<title>بين سطرين | Between the Lines</title>
+<style>
+:root{--ink:#172c2a;--muted:#64736f;--paper:#fbfaf6;--card:#fff;--green:#1f6255;--gold:#d7a95b;--line:#e5e9e2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Noto Sans Arabic",sans-serif;line-height:1.75}
+a{color:inherit}.wrap{width:min(1100px,92%);margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;font-size:1.1rem;letter-spacing:.2px}.brand span{display:block;font-size:.75rem;color:var(--muted);font-weight:500;direction:ltr;text-align:right}
+.controls{display:flex;gap:8px;align-items:center}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--green);border-radius:999px;padding:10px 18px;text-decoration:none;font-weight:700;cursor:pointer;background:var(--green);color:#fff;font-size:.92rem}.btn.secondary{background:transparent;color:var(--green)}button{font-family:inherit}
+.hero{padding:76px 0 64px;display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center}
+.eyebrow{color:var(--green);font-weight:800;font-size:.86rem;letter-spacing:.5px}
+h1{font-size:clamp(2.3rem,5vw,4.4rem);line-height:1.16;margin:12px 0 22px;letter-spacing:-1.5px}
+.lead{font-size:1.12rem;color:var(--muted);max-width:650px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.hero-card{background:#eaf0e9;border-radius:26px;padding:30px;min-height:290px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #dce7dc}
+.quote-mark{font-size:4rem;color:var(--gold);line-height:1}.hero-card blockquote{font-size:1.3rem;font-weight:700;margin:8px 0}.hero-card small{color:var(--muted)}
+section{padding:54px 0}.section-head{max-width:680px;margin-bottom:28px}h2{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.25;margin:0 0 12px}.sub{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}.num{color:var(--gold);font-weight:800;font-size:.85rem}.card h3{margin:8px 0;font-size:1.15rem}.card p{margin:0;color:var(--muted)}
+.about{background:#f0f3ed;border-block:1px solid var(--line)}.about-inner{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}.promise{display:grid;gap:12px}.promise div{background:#fff;border-radius:14px;padding:16px;border:1px solid var(--line)}
+.sample{margin-top:16px}.sample .label{font-size:.78rem;font-weight:800;color:var(--green);margin-bottom:6px}.sample p{margin:0 0 12px}.sample .translation{border-right:3px solid var(--gold);padding-right:14px}
+.pricing-note{margin-top:18px;color:var(--muted);font-size:.9rem}
+.contact{background:var(--ink);color:#fff}.contact .sub{color:#d3ddd8}.contact-panel{margin-top:22px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.contact .btn{background:var(--gold);border-color:var(--gold);color:#172c2a}.contact .btn.secondary{background:transparent;border-color:#b9ccc3;color:#fff}
+footer{padding:22px 0;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+[dir="ltr"] .sample .translation{border-right:0;border-left:3px solid var(--gold);padding-right:0;padding-left:14px}
+[dir="ltr"] .brand span{text-align:left}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:48px 0}.hero-card{min-height:210px}.grid{grid-template-columns:1fr}.about-inner{grid-template-columns:1fr}.topbar{align-items:flex-start}.controls{flex-wrap:wrap;justify-content:flex-end}.contact-panel{align-items:flex-start;flex-direction:column}section{padding:42px 0}}
+</style>
+</head>
+<body>
+<header class="wrap topbar">
+  <div class="brand">بين سطرين <span>BETWEEN THE LINES</span></div>
+  <div class="controls"><button class="btn secondary" id="langToggle" type="button">English</button><a class="btn" href="#contact" data-ar="اطلب خدمة" data-en="Request a service">اطلب خدمة</a></div>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow" data-ar="استوديو مستقل للغة والترجمة" data-en="Independent language & translation studio">استوديو مستقل للغة والترجمة</div>
+    <h1 data-ar="المعنى أولاً، والكلمات بعناية." data-en="Meaning first. Every word matters.">المعنى أولاً، والكلمات بعناية.</h1>
+    <p class="lead" data-ar="نساعدك على نقل أفكارك بين العربية والإنجليزية بوضوح وطبيعية، مع احترام المعنى والسياق والجمهور الذي تخاطبه." data-en="We help you communicate across Arabic and English with clarity and natural wording, while respecting meaning, context, and audience.">نساعدك على نقل أفكارك بين العربية والإنجليزية بوضوح وطبيعية، مع احترام المعنى والسياق والجمهور الذي تخاطبه.</p>
+    <div class="hero-actions"><a class="btn" href="#services" data-ar="اكتشف الخدمات" data-en="Explore services">اكتشف الخدمات</a><a class="btn secondary" href="#portfolio" data-ar="شاهد نماذج الأعمال" data-en="View sample work">شاهد نماذج الأعمال</a></div>
+  </div>
+  <aside class="hero-card"><div class="quote-mark">“</div><blockquote data-ar="الترجمة الجيدة لا تنقل الكلمات فقط؛ بل تنقل المعنى كما ينبغي أن يُفهم." data-en="Good translation does more than transfer words; it carries meaning as it should be understood.">الترجمة الجيدة لا تنقل الكلمات فقط؛ بل تنقل المعنى كما ينبغي أن يُفهم.</blockquote><small data-ar="العربية ↔ الإنجليزية" data-en="Arabic ↔ English">العربية ↔ الإنجليزية</small></aside>
+</section>
+
+<section class="wrap" id="services">
+  <div class="section-head"><h2 data-ar="خدماتنا" data-en="Services">خدماتنا</h2><p class="sub" data-ar="خدمات واضحة للأفراد والطلبة والباحثين عن عمل وأصحاب المشاريع وصنّاع المحتوى." data-en="Practical language services for individuals, students, job seekers, small businesses, and content creators.">خدمات واضحة للأفراد والطلبة والباحثين عن عمل وأصحاب المشاريع وصنّاع المحتوى.</p></div>
+  <div class="grid">
+    <article class="card"><div class="num">01</div><h3 data-ar="الترجمة العربية–الإنجليزية" data-en="Arabic–English Translation">الترجمة العربية–الإنجليزية</h3><p data-ar="ترجمة نصوص عامة وتجارية مع الحفاظ على المعنى والأسلوب ووضوح الرسالة." data-en="General and commercial texts translated with attention to meaning, tone, and clarity.">ترجمة نصوص عامة وتجارية مع الحفاظ على المعنى والأسلوب ووضوح الرسالة.</p></article>
+    <article class="card"><div class="num">02</div><h3 data-ar="التدقيق اللغوي" data-en="Proofreading">التدقيق اللغوي</h3><p data-ar="تصحيح الأخطاء اللغوية والإملائية وتحسين سلاسة النص مع الحفاظ على صوت صاحبه." data-en="Correct grammar and spelling and improve readability while preserving the writer’s voice.">تصحيح الأخطاء اللغوية والإملائية وتحسين سلاسة النص مع الحفاظ على صوت صاحبه.</p></article>
+    <article class="card"><div class="num">03</div><h3 data-ar="تحسين النصوص المهنية" data-en="Professional Text Editing">تحسين النصوص المهنية</h3><p data-ar="مساعدة في السيرة الذاتية ورسائل التقديم والبريد المهني وصياغة المحتوى." data-en="Support with CVs, cover letters, professional emails, and clearer written content.">مساعدة في السيرة الذاتية ورسائل التقديم والبريد المهني وصياغة المحتوى.</p></article>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap about-inner">
+    <div><h2 data-ar="لماذا بين سطرين؟" data-en="Why Between the Lines?">لماذا بين سطرين؟</h2><p class="sub" data-ar="لأن كل نص له غاية وجمهور وسياق. نركّز على ترجمة مفهومة وطبيعية، لا على استبدال الكلمات كلمةً بكلمة." data-en="Every text has a purpose, an audience, and a context. We focus on natural, understandable translation—not word-for-word substitution.">لأن كل نص له غاية وجمهور وسياق. نركّز على ترجمة مفهومة وطبيعية، لا على استبدال الكلمات كلمةً بكلمة.</p></div>
+    <div class="promise"><div><strong data-ar="وضوح من البداية" data-en="Clear from the start">وضوح من البداية</strong><br><span data-ar="نتفق على السعر والموعد ونطاق العمل قبل البدء." data-en="Price, deadline, and scope are agreed before work begins.">نتفق على السعر والموعد ونطاق العمل قبل البدء.</span></div><div><strong data-ar="خصوصية واحترام" data-en="Privacy and respect">خصوصية واحترام</strong><br><span data-ar="نتعامل مع النصوص والمعلومات المرسلة بسرية." data-en="Submitted texts and information are treated confidentially.">نتعامل مع النصوص والمعلومات المرسلة بسرية.</span></div><div><strong data-ar="مراجعة متفق عليها" data-en="Agreed revisions">مراجعة متفق عليها</strong><br><span data-ar="نحدّد مسبقاً ما يشمله السعر من مراجعات." data-en="We define in advance which revisions are included.">نحدّد مسبقاً ما يشمله السعر من مراجعات.</span></div></div>
+  </div>
+</section>
+
+<section class="wrap" id="portfolio">
+  <div class="section-head"><h2 data-ar="نماذج من ملف الأعمال" data-en="Portfolio samples">نماذج من ملف الأعمال</h2><p class="sub" data-ar="النماذج التالية تجريبية ومكتوبة لغرض عرض المهارات، وليست أعمالاً منفذة لعملاء." data-en="The samples below are fictional practice pieces created to demonstrate skills, not completed client projects.">النماذج التالية تجريبية ومكتوبة لغرض عرض المهارات، وليست أعمالاً منفذة لعملاء.</p></div>
+  <article class="card sample"><div class="num">SAMPLE 01 · ENGLISH → ARABIC</div><h3 data-ar="ترجمة تجارية" data-en="Commercial translation">ترجمة تجارية</h3><div class="label" data-ar="النص الأصلي" data-en="Source text">النص الأصلي</div><p dir="ltr">At GreenPath, we help businesses make smarter choices for a more sustainable future. Our practical solutions are designed to reduce waste, improve operational efficiency, and create lasting value for customers.</p><div class="label" data-ar="الترجمة" data-en="Translation">الترجمة</div><p class="translation">في GreenPath، نساعد الشركات على اتخاذ قرارات أكثر ذكاءً من أجل مستقبل أكثر استدامة. وقد صُمّمت حلولنا العملية للحدّ من النفايات، وتحسين الكفاءة التشغيلية، وتحقيق قيمة طويلة الأمد للعملاء.</p></article>
+  <article class="card sample"><div class="num">SAMPLE 02 · ARABIC → ENGLISH</div><h3 data-ar="ترجمة محتوى مشروع صغير" data-en="Small-business content translation">ترجمة محتوى مشروع صغير</h3><div class="label" data-ar="النص الأصلي" data-en="Source text">النص الأصلي</div><p>نؤمن بأن المشاريع الصغيرة تستحق فرصاً أكبر للنمو. لذلك نساعد أصحاب المشاريع على تحسين حضورهم الرقمي، وتقديم منتجاتهم بطريقة واضحة، وبناء علاقات طويلة الأمد مع عملائهم.</p><div class="label" data-ar="الترجمة" data-en="Translation">الترجمة</div><p class="translation" dir="ltr">We believe that small businesses deserve greater opportunities to grow. That is why we help business owners strengthen their online presence, present their products clearly, and build long-term relationships with their customers.</p></article>
+  <article class="card sample"><div class="num">SAMPLE 03 · ARABIC PROOFREADING</div><h3 data-ar="تدقيق وتحسين أسلوبي" data-en="Arabic proofreading and editing">تدقيق وتحسين أسلوبي</h3><div class="label" data-ar="قبل" data-en="Before">قبل</div><p>نحن نقدم خدمات تساعدك على تطوير مشروعك بطريقة افضل. فريقنا يعمل بجد لفهم حاجيات الحرفاء وتقديم حلول مناسبة ليهم.</p><div class="label" data-ar="بعد" data-en="After">بعد</div><p class="translation">نقدّم خدمات تساعدك على تطوير مشروعك بفاعلية أكبر. ويعمل فريقنا على فهم احتياجات العملاء وتوفير حلول تتناسب مع متطلباتهم.</p></article>
+</section>
+
+<section class="wrap" id="pricing">
+  <div class="section-head"><h2 data-ar="أسعار بداية مقترحة" data-en="Suggested starter prices">أسعار بداية مقترحة</h2><p class="sub" data-ar="الأسعار التالية تقديرية لمرحلة الانطلاق وليست تعريفة سوق رسمية. الصفحة الواحدة تعني حتى 250 كلمة من النص الأصلي." data-en="These are suggested introductory prices, not an official market tariff. One page means up to 250 words in the source text.">الأسعار التالية تقديرية لمرحلة الانطلاق وليست تعريفة سوق رسمية. الصفحة الواحدة تعني حتى 250 كلمة من النص الأصلي.</p></div>
+  <div class="grid">
+    <article class="card"><h3 data-ar="ترجمة عامة أو تجارية" data-en="General or commercial translation">ترجمة عامة أو تجارية</h3><p><strong>8–12 د.ت</strong> <span data-ar="للصفحة" data-en="per page">للصفحة</span></p></article>
+    <article class="card"><h3 data-ar="ترجمة تسويقية" data-en="Marketing translation">ترجمة تسويقية</h3><p><strong>12–18 د.ت</strong> <span data-ar="للصفحة" data-en="per page">للصفحة</span></p></article>
+    <article class="card"><h3 data-ar="تدقيق لغوي عربي" data-en="Arabic proofreading">تدقيق لغوي عربي</h3><p><strong>5–8 د.ت</strong> <span data-ar="للصفحة" data-en="per page">للصفحة</span></p></article>
+  </div>
+  <p class="pricing-note" data-ar="قد يتغيّر السعر حسب صعوبة النص، التنسيق، والاستعجال. تُحدَّد الكلفة النهائية بعد الاطلاع على النص. لا نقدّم ترجمة محلّفة أو رسمية ما لم تتوفر الصفة القانونية المطلوبة." data-en="Final prices may vary with complexity, formatting, and urgency. A quote is confirmed after reviewing the text. Certified or sworn translation is not offered unless the required legal status is held.">قد يتغيّر السعر حسب صعوبة النص، التنسيق، والاستعجال. تُحدَّد الكلفة النهائية بعد الاطلاع على النص. لا نقدّم ترجمة محلّفة أو رسمية ما لم تتوفر الصفة القانونية المطلوبة.</p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2 data-ar="عندك نص تحب تخدم عليه؟" data-en="Have a text you need help with?">عندك نص تحب تخدم عليه؟</h2>
+    <p class="sub" data-ar="ابعث نوع النص واللغة المطلوبة والموعد، ونرجعولك بتقدير واضح للسعر والوقت." data-en="Send the type of text, language direction, and deadline to receive a clear estimate of price and turnaround.">ابعث نوع النص واللغة المطلوبة والموعد، ونرجعولك بتقدير واضح للسعر والوقت.</p>
+    <div class="contact-panel"><div><strong>بين سطرين | Between the Lines</strong><br><span data-ar="المعنى أولاً، والكلمات بعناية." data-en="Meaning first. Every word matters.">المعنى أولاً، والكلمات بعناية.</span><p style="margin:8px 0 0;color:#d3ddd8;font-size:.9rem" data-ar="ملاحظة: أضف رقم واتساب أو بريدك الإلكتروني قبل نشر الموقع." data-en="Note: Add your WhatsApp number or email before publishing this site.">ملاحظة: أضف رقم واتساب أو بريدك الإلكتروني قبل نشر الموقع.</p></div><a class="btn" href="mailto:YOUR-EMAIL@example.com?subject=Between%20the%20Lines%20service%20request" data-ar="راسلنا بالبريد (عدّل العنوان أولاً)" data-en="Email us (edit address first)">راسلنا بالبريد (عدّل العنوان أولاً)</a></div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> بين سطرين | Between the Lines</span><span data-ar="موقع تعريفي مستقل — الأسعار تقديرية." data-en="Independent portfolio site — prices are estimates.">موقع تعريفي مستقل — الأسعار تقديرية.</span></div></footer>
+<script>
+const toggle=document.getElementById('langToggle');let lang='ar';
+function setLanguage(next){lang=next;document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-ar][data-en]').forEach(el=>{el.textContent=el.dataset[lang]});toggle.textContent=lang==='ar'?'English':'العربية';}
+toggle.addEventListener('click',()=>setLanguage(lang==='ar'?'en':'ar'));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
